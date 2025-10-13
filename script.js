@@ -4,6 +4,7 @@ document.getElementById("headScore");
 document.getElementById("tailsScore");
 document.getElementById("coinImage");
 document.getElementById("coin-flipper");
+document.getElementById("resetBtn").addEventListener(onclick, resetBtn);
 
 let heads = 0;
 let tails = 0;
