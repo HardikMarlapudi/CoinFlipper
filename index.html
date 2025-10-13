@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>CoinFlipper</title>
+</head>
+<body>
+    <h2 id="title">Flip a Coin</h2>
+    <p id="about">Flip a coin and see if you land on either heads or tails</p>
+    
+    <center>
+    <div class="coin-container">
+        <div id="coin-flipper">Head</div>
+    </div>
+    </center>
+
+    <center><button id="flipCoin" onclick="flipCoin()">Flip Coin</button></center>
+    <center><button id="reset" onclick="resetBtn()">Reset</button></center>
+
+    <p id="headScore">Heads: 0</p>
+    <p id="tailsScore">Tails: 0</p>
+
+    <p id="result">Result: </p>
+
+    <script src="script.js"></script>
+</body>
+</html>
