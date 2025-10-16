@@ -31,7 +31,6 @@
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     background-color: #07ef54;
-    align-content: center;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -42,7 +41,6 @@
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     background-color: red;
-    align-content: centers;
     border: none;
     border-radius: 5px;
     margin: 5px;

@@ -4,7 +4,7 @@ document.getElementById("headScore");
 document.getElementById("tailsScore");
 document.getElementById("coinImage");
 document.getElementById("coin-flipper");
-document.getElementById("resetBtn").addEventListener(onclick, resetBtn);
+document.getElementById("resetBtn");
 
 let heads = 0;
 let tails = 0;
@@ -17,12 +17,12 @@ function flipCoin() {
         heads +=1;
         document.getElementById("result").innerHTML = "You got heads.";
         document.getElementById("headScore").innerText = `Heads: ${heads}`;
-        coinImage.src = "head.png";
+        coinImage.src = "heads.png";
     } else {
         tails +=1;
         document.getElementById("result").innerHTML = "You got tails.";
         document.getElementById("tailsScore").innerText = `Tails: ${tails}`;
-        coinImage.src = "tail.png";
+        coinImage.src = "tails.png";
     }
 }
 
@@ -32,5 +32,5 @@ function resetBtn() {
     document.getElementById("headScore").innerText = `Heads: ${heads}`;
     document.getElementById("tailsScore").innerText = `Tails: ${tails}`;
     document.getElementById("result").innerHTML = `Result: `;
-    document.getElementById("coin-flipper").src = "head.png";
+    document.getElementById("coin-flipper").src = "heads.png";
 }
